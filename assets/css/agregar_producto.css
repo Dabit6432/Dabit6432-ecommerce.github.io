@@ -1,0 +1,81 @@
+.formulario_agregar_producto {
+    background-color: #e5e8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.titulo_formulario {
+    border: none;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.campo_agregar {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.label_agregar {
+    color: gray;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.input_agregar {
+    border: none;
+    resize: none;
+    width: 50vw;
+}
+
+.input_agregar:focus {
+    outline: none;
+}
+
+.boton_agregar {
+    color: #FFFFFF;
+    background-color: #2A7AE4;
+    border: none;
+    width: 50vw;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+.campo--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .campo--invalid .input {
+    border: 1px solid red;
+    border-radius: 7px;
+  }
+  
+  .campo--invalid .input-label {
+    color: red;
+  }
+  
+  .input-message-error {
+    display: none;
+  }
+  
+  .campo--invalid .input-message-error {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  @media screen and (max-width: 768px){
+    .input_agregar {
+        width: 90vw;
+      }
+  }

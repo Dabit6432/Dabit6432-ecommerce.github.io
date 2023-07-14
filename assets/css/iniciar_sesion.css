@@ -1,0 +1,73 @@
+.formulario_login_bg {
+    background-color: #e5e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.titulo_formulario {
+    border: none;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.input_login {
+    width: 20rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+.boton_entrar {
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+    width: 22rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: "Raleway";
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.link_crear_usuario {
+    color: #2A7AE4;
+    text-decoration: none;
+    padding-bottom: 3rem;
+    margin-top: .5rem;
+}
+
+
+.campo--invalid {
+    margin-bottom: 0.5rem;
+  }
+  
+  .campo--invalid .input {
+    border: 1px solid red;
+    border-radius: 7px;
+  }
+  
+  .campo--invalid .input-label {
+    color: red;
+  }
+  
+  .input-message-error {
+    display: none;
+  }
+  
+  .campo--invalid .input-message-error {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+  }

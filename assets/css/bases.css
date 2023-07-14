@@ -1,0 +1,12 @@
+.contenedor {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+@media screen and (max-width: 820px) {
+
+    .contenedor {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}

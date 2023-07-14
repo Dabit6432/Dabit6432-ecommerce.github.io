@@ -1,0 +1,91 @@
+{
+  "productos": [
+    {
+      "nombre": "BB Yoda",
+      "imagenUrl": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1112&q=80",
+      "precio": "5,000",
+      "categoria": "star wars",
+      "descripcion": "Tierno y bonito",
+      "id": 1
+    },
+    {
+      "nombre": "Xbox ONE",
+      "imagenUrl": "https://images.unsplash.com/photo-1605901309584-818e25960a8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1319&q=80",
+      "precio": "6,500",
+      "categoria": "consolas",
+      "descripcion": "Peuqeña y poderosa",
+      "id": 2
+    },
+    {
+      "nombre": "Algo de star wars",
+      "imagenUrl": "https://images.unsplash.com/photo-1589632727880-664c976618ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
+      "precio": "600",
+      "categoria": "star wars",
+      "descripcion": "Detallado y muy original",
+      "id": 3
+    },
+    {
+      "nombre": "Algo de star wars",
+      "imagenUrl": "https://images.unsplash.com/photo-1583399886530-1a33f9e72d30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "precio": "800",
+      "categoria": "star wars",
+      "id": 4
+    },
+    {
+      "nombre": "Cargador de star wars",
+      "imagenUrl": "https://images.unsplash.com/photo-1558492426-df14e290aefa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "precio": "1000",
+      "categoria": "star wars",
+      "id": 5
+    },
+    {
+      "nombre": "Colección de star wars",
+      "imagenUrl": "https://images.unsplash.com/photo-1558793588-a82336c8a9b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60",
+      "precio": "1500",
+      "categoria": "star wars",
+      "id": 6
+    },
+    {
+      "nombre": "Arturito creo",
+      "imagenUrl": "https://images.unsplash.com/photo-1589661654496-f5222b481fe0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "precio": "800",
+      "categoria": "star wars",
+      "id": 7
+    },
+    {
+      "nombre": "Arturito creo",
+      "imagenUrl": "https://images.unsplash.com/photo-1552591864-acc3cd2618e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "precio": "800",
+      "categoria": "star wars",
+      "id": 8
+    },
+    {
+      "nombre": "switch2",
+      "imagenUrl": "https://topesdegama.com/app/uploads-topesdegama.com/2022/08/Switch.jpg",
+      "precio": "1,000",
+      "categoria": "consolas",
+      "descripcion": "Bonita y portable",
+      "id": "f975eb78-2fd4-4c14-8169-eb6a7b873ebd"
+    },
+    {
+      "nombre": "Playera gamer",
+      "imagenUrl": "data:image/jpeg;base64,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",
+      "precio": "100",
+      "categoria": "varios",
+      "descripcion": "playera bonita",
+      "id": "89b69cea-da12-4257-9372-a42499296703"
+    }
+  ],
+  "usuarios": [
+    {
+      "correo": "david.lazaro@gmail.com",
+      "password": "1234567",
+      "id": "1"
+    },
+    {
+      "correo": "david.lazaroP@gmail.com",
+      "password": "David64kali",
+      "id": "7a9cd84a-c5cb-46f1-8d65-a46a06c86a51"
+    }
+  ]
+}

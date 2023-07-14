@@ -1,0 +1,107 @@
+.seccion_contacto {
+    background-color: #EAF2FD;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto_izquierda {
+    display: flex;
+}
+
+.mas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+}
+
+.link__mas {
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+}
+
+.formulario__contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.label_nombre {
+    font-size: .8rem;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.nombre {
+    margin-top: .5rem;
+    width: 25rem;
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.mensaje {
+    width: 25rem;
+    border: none;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    resize: none;
+}
+
+.boton__enviar {
+    margin-top: .5rem;
+    width: 8rem;
+    padding: .8rem .5rem;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 820px){
+
+    .contacto {
+        justify-content: space-between;
+    }
+
+    .contacto_izquierda {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mas {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nombre {
+        width: 90vw
+    }
+    
+    .mensaje {
+        width: 90vw;
+    }
+
+    .contacto_izquierda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+}
